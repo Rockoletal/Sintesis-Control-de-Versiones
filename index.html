@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Síntesis Control de Versiones</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        header {
+            text-align: center;
+            color: black;
+            font-size: 50px;
+        }
+
+        .contenedor-texto {
+            font-size: 20px;
+            text-align: justify; 
+            border: 2px solid rgb(64, 75, 66);
+            padding: 10px; 
+            border-radius: 5%; /* Hace las esquinas circulares */
+            margin-left: 100px; /* Mueve el div hacia la derecha*/
+            margin-right: 100px;  /* Mueve el div hacia la izquierda*/
+            margin-top: 10px;
+        }
+
+        .imagen-centrada {
+            display: block; /* Hace que la imagen sea un elemento de bloque */
+            margin: 0 auto; /* Centra horizontalmente la imagen */
+        }
+
+
+    </style>
+</head>
+<body style="background-color: #8dca96;">
+
+    <header style = "font-family:courier,arial,helvética;">Síntesis Control de Versiones</header>
+    
+    <div class="contenedor-texto">
+        <h1 style="font-size: 30px;">Acerca del Control de Versiones</h1>
+        <p>
+        El control de versiones trata sobre cómo un sistema registra los cambios realizados en archivos a lo largo del tiempo para permitir la recuperación de versiones 
+        específicas en el futuro. Esto no se limita solo a archivos de código, sino que también se aplica a la mayoría de las cosas relacionadas con archivos en una computadora.
+        <br>
+        Para profesionales como diseñadores gráficos o de web, el uso de un sistema de control de versiones es muy recomendado. Ya que con un VCS, puedes retroceder a 
+        versiones anteriores de tus archivos, volver a una versión anterior de cualquier proyecto, se puede usar para hacer comparaciones a lo largo del tiempo y lo más importante,
+        solucionar problemas causados por cambios erróneos. También ofrece la ventaja de recuperar fácilmente archivos en caso de pérdida o daño, y todo esto a un costo muy bajo.
+     </p>
+    </div> 
+
+    <div class="contenedor-texto">
+        <h1 style="font-size: 30px;">Sistemas de Control de Versiones Locales</h1>
+        <p>El sistema de control de versiones locales es un método de control que utiliza mucha gente, ya que consiste en copiar los archivos a otro directorio. 
+        Este método es muy común debido a su simplicidad, pero la parte negativa de este método es que es muy propenso a errores. Por eso mismo, los programadores 
+        desarrollaron un registro de todos los cambios realizados a los archivos.
+        </p>
+        <img src="https://git-scm.com/book/en/v2/images/local.png" alt="Sistemas de control de versiones locales " width="300" height="200" class="imagen-centrada">
+        
+
+        </p>
+    </div>
+
+    <div class="contenedor-texto">
+        <h1 style="font-size: 30px;">Sistemas de Control de Versiones Centralizados</h1>
+        <p>Uno de los problemas que tienen muchos programadores es al momento de colaborar con desarrolladores en otros sistemas. Los sistemas de Control de Versiones 
+        Centralizados fueron desarrollados para solucionar este problema. Estos sistemas tienen un servidor central con todos los archivos versionados, y múltiples clientes descargan desde ahí. Este enfoque ha sido el estándar en el control de versiones durante mucho tiempo. de versiones durante mucho tiempo
+        </p>
+        <img src="https://git-scm.com/book/en/v2/images/centralized.png" alt="Sistemas de control de versiones locales " width="300" height="200" class="imagen-centrada">
+       <p>Los CVCS ofrecen ventajas, como el poder ver el trabajo de los demás colaboradores, un control preciso de administradores y una gestión más sencilla en comparación
+        con bases de datos locales. Pero también tiene sus desventajas, una de las más notables es si el servidor central se cae o la base de datos se corrompe sin ninguna 
+        copia de seguridad, toda la información se pone en riesgo de perderse por completo.
+
+       </p>
+    </div>
+
+    <div class="contenedor-texto">
+        <h1 style="font-size: 30px;">Sistemas de Control de Versiones Distribuidos</h1>
+       <p>Los sistemas de control de versiones distribuidos (DVCS), como Git, Mercurial, Bazaar y Darcs, solucionan los problemas mencionados anteriormente. 
+        Los clientes no solo descargan la última versión y copia de los archivos, sino que también la replican. Esto ayuda a que en caso de fallo del servidor central,
+        cualquiera de los repositorios en los clientes pueda restaurar el sistema, ya que cada cliente contiene una copia completa de todos los datos.
+        </p>
+
+        <img src="https://git-scm.com/book/en/v2/images/distributed.png" alt="Sistemas de control de versiones locales " width="450" height="450" class="imagen-centrada">
+    </div>
+
+    <div class="contenedor-texto">
+        <h1 style="font-size: 30px;">Conclusion</h1>
+        <p>
+        Hablando un poco en general sobre el control de versiones, es algo fundamental en el desarrollo de software y proyectos, específicamente cuando se trata de
+        proyectos colaborativos. Ya que nos permite registrar cambios, colaborar de manera eficiente, y recuperar versiones anteriores, así como realizar pruebas 
+        en paralelo. También automatiza la documentación. En resumen, mejora la gestión de proyectos y el desarrollo de software al ofrecer un control preciso de los
+        cambios y una colaboración más eficaz.
+        </p>
+
+    </div>
+
+
+</body>
+</html>
